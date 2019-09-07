@@ -1,8 +1,16 @@
 {
   "name": "bs-react-animate-height",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Bs binding for react animate height",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maxlibin/bs-react-animate-height.git"
+  },
+  "homepage": "https://github.com/maxlibin/bs-react-animate-height",
+  "bugs": {
+    "url": "https://github.com/maxlibin/bs-react-animate-height/issues"
+  },
   "scripts": {
     "clean": "bsb -clean-world",
     "build": "bsb -make-world",
