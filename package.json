@@ -1,5 +1,5 @@
 {
-  "name": "@maxlibin/bs-react-animate-height",
+  "name": "bs-react-animate-height",
   "version": "1.0.0",
   "description": "Bs binding for react animate height",
   "main": "index.js",

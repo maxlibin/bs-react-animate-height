@@ -2,12 +2,6 @@
 # yarn lockfile v1
 
 
-"@maxlibin/bs-react-animate-height@file:..":
-  version "1.0.0"
-  dependencies:
-    react-animate-height "^2.0.15"
-    reason-react "^0.7.0"
-
 "@types/events@*":
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/@types/events/-/events-3.0.0.tgz#2862f3f58a9a7f7c3e78d79f130dd4d71c25c2a7"
@@ -541,6 +535,12 @@ bs-platform@^5.0.6:
   version "5.0.6"
   resolved "https://registry.yarnpkg.com/bs-platform/-/bs-platform-5.0.6.tgz#88c13041fb020479800de3d82c680bf971091425"
   integrity sha512-6Boa2VEcWJp2WJr38L7bp3J929nYha7gDarjxb070jWzgfPJ/WbzjipmSfnu2eqqk1MfjEIpBipbPz6n1NISwA==
+
+"bs-react-animate-height@file:..":
+  version "1.0.0"
+  dependencies:
+    react-animate-height "^2.0.15"
+    reason-react "^0.7.0"
 
 buffer-from@^1.0.0:
   version "1.1.1"

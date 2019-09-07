@@ -1,5 +1,5 @@
 {
-  "name": "@maxlibin/bs-react-animate-height",
+  "name": "bs-react-animate-height",
   "version": "0.0.1",
     "sources": {
 	    "dir" : "src",

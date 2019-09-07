@@ -1,5 +1,5 @@
 {
-  "name": "@maxlibin/bs-react-animate-height-example",
+  "name": "bs-react-animate-height-example",
   "version": "0.1.0",
   "scripts": {
     "build": "bsb -make-world",
@@ -16,7 +16,7 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "@maxlibin/bs-react-animate-height": "file:../",
+    "bs-react-animate-height": "file:../",
     "react": "^16.8.1",
     "react-dom": "^16.8.1",
     "reason-react": ">=0.7.0"
