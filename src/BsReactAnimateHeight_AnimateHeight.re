@@ -3,19 +3,19 @@ open BsReactAnimateHeight_Utils;
 [@bs.module "react-animate-height"] [@react.component]
 external make:
   (
-    ~height: height => string=?,
+    ~height: Height.output=?,
     ~duration: int=?,
     ~delay: int=?,
-    ~easing: easing=?,
+    ~easing: string=?,
     ~className: string=?,
     ~style: ReactDOMRe.Style.t=?,
     ~contentClassName: string=?,
     ~animationStateClasses: 'a=?,
-    ~onAnimationStart: height => unit=?,
-    ~onAnimationEnd: height => unit=?,
+    ~onAnimationStart: Height.output => unit=?,
+    ~onAnimationEnd: Height.output => unit=?,
     ~applyInlineTransitions: bool=?,
     ~animateOpacity: bool=?,
     ~children: React.element=?
   ) =>
   React.element =
-  "AnimateHeight";
+  "default";

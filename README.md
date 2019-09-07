@@ -1,3 +1,12 @@
+# Bs React Animate Height
+
+## Note
+
+This is a reasonml binding React animate height component https://github.com/Stanko/react-animate-height
+
+## Demo
+
+```
 open BsReactAnimateHeight;
 open Utils.Height;
 
@@ -17,3 +26,4 @@ let make = () => {
     </AnimateHeight>
   </div>;
 };
+```
