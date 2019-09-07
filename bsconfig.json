@@ -1,0 +1,23 @@
+{
+  "name": "@maxlibin/bs-react-animate-height",
+  "version": "0.0.1",
+    "sources": {
+	    "dir" : "src",
+	    "subdirs" : true
+	},
+  "package-specs": {
+    "module": "es6",
+    "in-source": true
+  },
+  "suffix": ".bs.js",
+  "bs-dependencies": [
+    "reason-react"
+  ],
+  "reason": {
+    "react-jsx": 3
+  },
+  "bsc-flags": [
+    "-bs-super-errors"
+  ],
+  "refmt": 3
+}

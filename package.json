@@ -1,0 +1,20 @@
+{
+  "name": "@maxlibin/bs-react-animate-height",
+  "version": "1.0.0",
+  "description": "Bs binding for react animate height",
+  "main": "index.js",
+  "scripts": {
+    "clean": "bsb -clean-world",
+    "build": "bsb -make-world",
+    "watch": "bsb -make-world -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "bs-platform": "^5.0.6"
+  },
+  "dependencies": {
+    "react-animate-height": "^2.0.15",
+    "reason-react": "^0.7.0"
+  }
+}

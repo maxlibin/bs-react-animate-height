@@ -1,0 +1,22 @@
+
+{
+  "name": "@maxlibin/bs-react-animate-height-example",
+  "reason": {
+    "react-jsx": 3
+  },
+  "sources": {
+    "dir" : "src",
+    "subdirs" : true
+  },
+  "package-specs": [{
+    "module": "es6",
+    "in-source": true
+  }],
+  "suffix": ".bs.js",
+  "namespace": true,
+  "bs-dependencies": [
+    "reason-react",
+    "@maxlibin/bs-react-animate-height"
+  ],
+  "refmt": 3
+}
